@@ -43,7 +43,7 @@ const Home = () => {
             <h3 className="center">Our items</h3>
             <div  className='button-padding'>
                 <Button  variant="contained" color="primary"  onClick={goToCartPage} >
-                    Checkout
+                    Checkouts
                 </Button>
             </div>
             <div className="box">
