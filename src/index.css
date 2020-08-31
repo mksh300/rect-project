@@ -1,0 +1,80 @@
+.box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 90px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: rgb(204, 204, 204) 2px 2px;
+  border-radius: 4px;
+}
+.material-icons{
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.card{
+  width: 300px;
+}
+.card .card-image .card-title{
+  color: black;
+  font-weight: 400
+}
+.cart{
+  margin-top:40px;
+  display: flex;
+  flex-direction: column;
+}
+.collection .collection-item{
+  display: flex;
+}
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+}
+.collection .collection-item img{
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc{
+  align-self:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li {
+  float: left;
+}
+li a  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
+}
+.collection-item.avatar{
+  background-color: #eee;
+  box-shadow: 2px 2px #ccc;
+  border-radius: 5px;
+  padding: 20px;
+      margin: 10px;
+}
+  .total-amount{
+    padding: 15px;
+    background-color: #6d6d66;
+    color:white;
+  }
+  .button-padding{
+    padding: 10px;
+  }
+  .image-max-width{
+    max-width: 300px;
+  }
